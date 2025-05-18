@@ -1,0 +1,36 @@
+# macOS에서 자동 생성하는 메타데이터 파일 무시
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Finder에서 생성하는 숨김파일
+._*
+
+# 아이튠즈, 써드파티 앱 등에서 생성하는 잠재적 무시 파일
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+
+# Thumbs.db (Windows 썸네일 캐시)
+Thumbs.db
+
+# node_modules (예시, 프로젝트에 맞게 추가)
+node_modules/
+
+# Python 관련 (예시)
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# 환경설정 파일 예시
+.env
+
+# 압축파일, 빌드 결과물 (프로젝트마다 다름)
+*.tar.gz
+*.zip
+*.tar
+*.gz
+
+# 기타 원치 않는 파일 추가 가능
