@@ -3,11 +3,10 @@ package bundles.authz
 default allow = false
 
 allow {
-  input.user == "admin"
+  if input.user == "admin"
 }
 
 allow {
-  input.user == "alice"
-  input.action == "read"
+  if input.user == "alice"
+  if input.action == "read"
 }
-
