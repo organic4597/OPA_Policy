@@ -11,4 +11,3 @@ allow {
   input.action == "read"
 }
 
-}
