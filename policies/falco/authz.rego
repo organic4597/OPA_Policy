@@ -7,6 +7,9 @@ default allow := true
 outcome := "warning" if input.rule.level == "warning"
 outcome := "deny"    if input.rule.level == "critical"
 
+#deny면 허용 false
+allow := false if outcome == "deny"
+
 # allow 여부
 allow if outcome == "access"
 
